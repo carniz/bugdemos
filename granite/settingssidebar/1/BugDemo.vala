@@ -89,7 +89,7 @@ namespace BugDemos {
 	public class SettingsView : Granite.SimpleSettingsPage {
 
 		public SettingsView (string setting_name, string setting_description, string? header) {
-		    Object (
+			Object (
 				header: header,
 				title: setting_name,
 				description: setting_description,
